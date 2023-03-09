@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'LT Wave';
+    src: url(../font/FontsFree-Net-LTWave-Bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'LT Wave';
+}
+.welcame{
+    height: 1000px;
+}
+.welcame h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 92px;
+}
+.bg-image{
+    width: 100%; 
+    height: 1080px; 
+    background-image: url('../Inages/pexels-minhaz-box-13576064\ 1.png'); 
+    background-size: 100% 100%;  
+    background-repeat: no-repeat;
+}
+.bg-image2{
+    width: 100%; 
+    height: 522px; 
+    background-image: url('../Inages/pexels-qazi-ikram-haq-1185617\ 1.png'); 
+    background-size: 100% 100%;  
+    background-repeat: no-repeat;
+}
+.bg-image3{
+    width: 100%; 
+    height: 522px; 
+    background-image: url('../Inages/pexels-mv-photography-8295326\ 1.png'); 
+    background-size: 100% 100%;  
+    background-repeat: no-repeat;
+}
+
+.section-width{
+    margin:0px 200px 0px 200px;   
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(228, 218, 218);
+    font-size:20px;
+}
+.nav-link:hover{
+    color: #D4155B;
+}
+.sirvices P{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 25px;
+}
+@media only screen and (max-width: 1433px) {
+    
+    .section-width{
+        margin:0px 50px 0px 50px;   
+    }
+    .bg-image{
+        height: 400px; 
+    }
+    .welcame{
+        height: 450px;
+    }
+    .navbar-brand img{
+        height: 70px;
+        width: 100px;
+    }
+        
+}
+
+@media only screen and (max-width: 600px) {
+    .bg-image{
+        height: 400px; 
+    }
+    .section-width{
+        margin:0px 10px 0px 10px;   
+    }
+    .welcame{
+        height: 400px;
+    }
+    .welcame h1{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    
+    .navbar-brand img{
+        height: 50px;
+        width: 70px;
+    }
+
+    .sirvices img{
+        width: 35px;
+        height: 37px;
+    }
+    .sirvices P{
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 28px;
+        padding-top: 10px;
+    }
+    .bg-image2{
+        height: 250px; 
+    }
+    .bg-image3{
+        height: 250px; 
+    }
+}
+
